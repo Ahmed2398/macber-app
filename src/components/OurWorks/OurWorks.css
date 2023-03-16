@@ -1,0 +1,30 @@
+/* our work */
+.box-work{
+    background: #FCF9FF;
+    box-shadow: 0px 0px 13px #DED6E8;
+    border-radius: 9px;
+    position: relative;
+    /* width: 350px; */
+  }
+  .text-box-work{
+    line-height: 1.1;
+    font-size: 13px;
+    text-align: left;
+  }
+  .box-work h4{
+    color: var(--primary-color1) !important;
+  
+  }
+  .work-text {
+    padding: 40px 10px;
+  
+  }
+  .btn-costume-two {
+    border: 1px solid var(--primary-color2);
+    background-color: var(--primary-color2);
+    color: var(--neutral-color1);
+    border-radius: 36.5px;
+    padding: 6px 30px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+  }

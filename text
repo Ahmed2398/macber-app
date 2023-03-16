@@ -1,0 +1,102 @@
+   <div className="bg-is py-4 mt-5">
+
+        
+    <div className="row">
+      <div className="col-lg-12 m-auto ">
+
+        <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+          <div className="carousel-inner ">
+           
+            <div className="carousel-item active">
+              <div className="mySlides  ">
+                <div id="banner-one ">
+                  <div className="row">
+                    <div className="col-lg-6 col-sm-12 m-auto">
+                      <h3 className="head-banner h3-banner ">Innovative </h3>
+                          <h1 className="head-banner head-banner-h1"> Game  <br/> Development 
+                           </h1>
+                           <h3 className="head-banner h3-banner">Technologies </h3>
+                          <p className=" text-banner text-muted">Appsinnovate’s games development team is the most experience dexpertise on mobile apps across all mobile platforms. with more than 10 years of experience in digital business and mobile  development field, appsinnovate can help you better engage your fans with mobile applications  for smartphones and tablets.
+                          </p>
+                          {/* <Link href="#" className="btn btn-costume-two"  >See More</Link> */}
+                    </div>
+                    <div className="col-lg-6 col-sm-12">
+                      {/* <img src='https://mdbootstrap.com/img/new/slides/043.jpg' alt="game" width="100%"/> */}
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <div className="mySlides ">
+                <div id="banner-two">
+                  <div className="row">
+                    <div className="col-lg-6 col-sm-12 m-auto">
+                      <h3 className="head-banner h3-banner">Superior </h3>
+                          <h1 className="head-banner head-banner-h1"> Software  <br/> Development 
+                           </h1>
+                           <h3 className="head-banner h3-banner">Solutions </h3>
+                          <p className=" text-banner text-muted">Expertise on mobile apps across all mobile platforms. with more than 10 years of experience <br/> in digital business and mobile development field, appsinnovate can help you better engage <br/> your fans with mobile applications for smartphones and tablets.
+                          </p>
+                          {/* <Link href="#" className="btn btn-costume-two"  >See More</Link> */}
+                    </div>
+                    <div className="col-lg-6 col-sm-12">
+                      {/* <img src='https://mdbootstrap.com/img/new/slides/043.jpg' alt="game" width="100%"/> */}
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+          </div>
+
+
+          <div className="carousel-indicators ">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-label="Slide 1" data-bs-pause="false" aria-current="true">
+              {/* <span style="width: 28%;"></span> */}
+            </button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" className="">
+              {/* <span style="width: 0px;"></span> */}
+            </button>
+           
+
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+    {/* <div className="row">
+      <div className="col-lg-2 m-auto">
+        <ul className="list-inline list-icons">
+          <li className="list-item item-icon">
+            <Link href="https://www.facebook.com/Macberllc/" target="_blank">
+              <img src="src/image/icons/fa_facebook-fill.png" alt="facebook">
+            </Link>
+          </li>
+          <li className="list-item item-icon">
+            <Link href="https://www.instagram.com/macberegypt/?igshid=ODBkMDk1MTU%3D" target="_blank">
+              <img src="src/image/icons/instagram-fill.png" alt="ig">
+            </Link>
+          </li>
+          <li className="list-item item-icon">
+            <Link href="https://www.linkedin.com/company/macbercompany/" target="_blank">
+              <img src="src/image/icons/linkedin-fill.png" alt="linkedin">
+            </Link>
+          </li>
+          <li className="list-item item-icon">
+            <Link href="info@Macber.com" target="_blank">
+              <img src="src/image/icons/mail-fill.png" alt="email">
+            </Link>
+          </li>
+          <!-- <li className="list-item item-icon">
+                <Link className=" btn--scroll-to"><i className="fa-solid fa-chevron-down"></i></Link>
+              </li> -->
+        </ul>
+      </div>
+    </div> */}
+  </div>
