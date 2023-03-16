@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
-import contact from '../../assets/images/contact us 01.png'
+import contact from '../../assets/images/contact.png'
 import SocialMedia from '../SocialMedia/SocialMedia';
 import {motion} from "framer-motion";
 import './ContactUS.css';
