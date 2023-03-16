@@ -2,7 +2,6 @@ import egypt from '../assets/images/office/egypt.png'
 import Dubai from '../assets/images/office/dubai.png'
 import London from '../assets/images/office/london.png'
 import Sa from '../assets/images/office/saudi.png'
-
 export const offices = [
     {
         id:1,
