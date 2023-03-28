@@ -1,6 +1,8 @@
 import React from 'react'
 import partners from '../../assets/images/newsectionpartners.png';
 import {motion} from "framer-motion";
+import MissionPartners from "../MissionPartners/MissionPartners";
+import macberOffice from "../../assets/images/office/office.png";
 
 const Partners = () => {
   return (
@@ -10,7 +12,12 @@ const Partners = () => {
           transition={{ duration: 1, type: 'tween' }}
           className="clients landsape ptb-60 " id="Partners"
       >
-    <div className="">
+          <div>
+              <img src={macberOffice} alt="office" className="rounded-custom w-100" />
+
+          </div>
+
+          <div className="">
 
     <img src={partners} className="rounded" width="100%"/>
     </div>

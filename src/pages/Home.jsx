@@ -23,7 +23,7 @@ const Home = () => {
       <ContactUs/>
     <TeamList/>
     <OfficeList/>
-      <Clients/>
+      {/*<Clients/>*/}
       <FaqList/>
 
     </>

@@ -35,7 +35,6 @@ function BenfitsList() {
    })}
 
 
-   <MissionPartners/>
     </Row>
 
   </Container>

@@ -49,3 +49,14 @@
   .s{
     padding: 2rem 0 !important;
   }
+
+  .contactHead{
+    font-size: 36px;
+    font-family: Raleway-Mediuam;
+  }
+  .form-box{
+    box-shadow: rgb(39, 7, 68) 0px 3px 8px;
+  }
+  .form-box form{
+    padding: 30px 10px;
+  }

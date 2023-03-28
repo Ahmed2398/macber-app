@@ -16,7 +16,7 @@ const MissionPartners = () => {
   <Container fluid>
     <Row>
         <Col  lg={12}>
-            <img src={macberOffice} alt="office" className="rounded-custom"/>
+            <img src={macberOffice} alt="office" className="rounded-custom w-100" />
         </Col>
 
     </Row>

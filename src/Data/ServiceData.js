@@ -1,7 +1,7 @@
 import web from '../assets/images/web-development(1).png';
 import mobile from '../assets/images/app-development.png';
-import ux from '../assets/images/ux.png';
-
+import ux from '../assets/images/ux-design.png';
+import game from '../assets/images/game-development.png'
 export const services = [
     {
         id: 1,
@@ -32,5 +32,11 @@ export const services = [
         name: 'Flutter Development',
         text: 'Take control of your codebase with automated testing, developer tooling, and everything else you need to build production-quality apps.',
         img: mobile
+    },
+    {
+        id: 6,
+        name: 'Game Development',
+        text: 'Take control of your codebase with automated testing, developer tooling, and everything else you need to build production-quality apps.',
+        img: game
     },
 ]

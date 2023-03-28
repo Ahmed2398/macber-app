@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
-import contact from '../../assets/images/contact.png'
+import contact from '../../assets/images/contactHead.png'
 import SocialMedia from '../SocialMedia/SocialMedia';
 import {motion} from "framer-motion";
 import './ContactUS.css';
@@ -43,13 +43,12 @@ const ContactUs = () => {
         >
     <Container>
         <Row>
-            <Col xs={12} lg={6}>
+            <Col xs={12} lg={6} className="m-auto">
                 
-          <div className="bg">
-            <img src={contact} alt={contact}/>
-          </div>
-          <h2 className="text-white mt-5 head-contact">LET’S WORK TOGETHER</h2>
-          <p className="text-white mt-5 ">Reach out to us for a consultation, overview, and to know more about our services.
+
+            {/*<img src={contact} alt={contact}/>*/}
+              <h2 className="text-warning contactHead">Contact Us LET’S WORK TOGETHER</h2>
+          <p className="text-white ">Reach out to us for a consultation, overview, and to know more about our services.
           </p>
           
           <i className="fa-solid fa-location-dot text-white mt-2 mx-2"></i>
@@ -57,7 +56,7 @@ const ContactUs = () => {
             Fifth settlement, New Cairo, Egypt</span>
             <SocialMedia className="s"/>
             </Col>
-            <Col xs={12} lg={6}>
+            <Col xs={12} lg={6} className="form-box">
             <form onSubmit={onSubmit}>
             <div className="mb-3">
               <label htmlFor="name" className="form-label">Name</label>

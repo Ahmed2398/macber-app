@@ -1,5 +1,6 @@
 .nav-pills .nav-link{
     background-color: var(--primary-color1);
+    text-align: center;
 }
 .nav-pills .nav-link:active {
     color: yellow !important;
@@ -77,4 +78,7 @@ p{
 }
 .pop_up_card{
     text-align: center;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    background-color: gray;
 }

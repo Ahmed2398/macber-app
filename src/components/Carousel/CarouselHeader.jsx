@@ -44,8 +44,8 @@ function CarouselHeader() {
                   </p>
                   {/* <a href="#" className="btn btn-costume-two" style="margin-left: 10px;">See More</a> */}
                 </div>
-                <div className="col-lg-6 col-sm-12">
-                  <img src={girl} alt="game" width="100%" />
+                <div className="col-lg-6 col-sm-12 text-center">
+                  <img src={girl} alt="game" width="50%" />
                 </div>
               </Row>
             </div>
@@ -69,8 +69,8 @@ function CarouselHeader() {
                   </p>
                   {/* <a href="#" className="btn btn-costume-two" style="margin-left: 10px;">See More</a> */}
                 </div>
-                <div className="col-lg-6 col-sm-12">
-                  <img  src={boy} alt="newsoftkey" width="100%" />
+                <div className="col-lg-6 col-sm-12 text-center">
+                  <img  src={boy} alt="newsoftkey" width="50%" />
                 </div>
               </Row>
             </div>
