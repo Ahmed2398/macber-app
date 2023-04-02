@@ -27,7 +27,7 @@ const TeamList = () => {
                     // const{id, name, title , img, social} = team;
                     return(
                       <Col xs={12} md={6} lg={3} key={index} >
-                        <div  className="team-single-wrap mb-5">
+                        <div  className="team-single-wrap mb-1">
                         <Team key={team.id} name={team.name} title={team.title} img={team.img} social={team.social}/>
                         </div>
                         </Col>

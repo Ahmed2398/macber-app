@@ -58,27 +58,21 @@ const ContactUs = () => {
             </Col>
             <Col xs={12} lg={6} className="form-box">
             <form onSubmit={onSubmit}>
-            <div className="mb-3">
-              <label htmlFor="name" className="form-label">Name</label>
-              <input type="text" name="name" className="form-control"  placeholder="Your Name"/>
+            <div className="mb-3 py-1">
+              <input type="text" name="name" className="form-control p-3"  placeholder="Name"/>
             </div>
-            <div className="mb-3">
-              <label htmlFor="name" className="form-label">Phone</label>
-              <input type="number" name="phone" className="form-control"  placeholder="+1 (555) 1234-656"/>
+            <div className="mb-3 py-1">
+              <input type="number" name="phone" className="form-control p-3"  placeholder="Phone Number"/>
             </div>
-            <div className="mb-3">
-              <label htmlFor="name" className="form-label">Email</label>
-              <input type="email" name="email"  className="form-control"  placeholder="Your Email"/>
+            <div className="mb-3 py-1">
+              <input type="email" name="email"  className="form-control p-3"  placeholder="Email"/>
             </div>
-            <div className="mb-3">
-              <label htmlFor="name" className="form-label">Company</label>
-              <input type="text" name="company"  className="form-control"  placeholder="Your Company"/>
+            <div className="mb-3 py-1">
+              <input type="text" name="company"  className="form-control p-3"  placeholder="Company"/>
             </div>
-            <div className="mb-3">
-              <label htmlFor="name" className="form-label">Message</label>
-              <textarea name="message" className="form-control"  placeholder="Your Message"></textarea>
+            <div className="mb-3 py-1">
+              <textarea name="message" className="form-control p-3"  placeholder="Message"></textarea>
             </div>
-
             <button className="btn btn-costume-two btn-contact text-uppercase" type="submit">Submit Form</button>
         </form>
                 <span>{result}</span>

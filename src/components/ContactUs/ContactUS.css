@@ -60,3 +60,16 @@
   .form-box form{
     padding: 30px 10px;
   }
+  .contact-us form .form-control{
+    background-color: transparent;
+    border: 1px dashed #FFFFFF;
+    color: #fff;
+    opacity: .8;
+  }
+  .contact-us form .form-control:focus{
+    color: var(--accent-color);
+  }
+  .contact-us form .form-control::placeholder{
+    color: #fff;
+    text-transform: capitalize;
+  }

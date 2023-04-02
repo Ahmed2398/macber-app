@@ -11,12 +11,12 @@ const OfficeList = () => {
         <motion.section
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 1, type: 'tween' }}
-            className="ptb-60"
+            className="ptb-60 office"
         >
         <Container>
             <Row>
                 <Col lg={12} sm={12}>
-                    <div className="head-content text-center">
+                    <div className="head-content text-center py-5">
                         <h4 className="text-warning text-uppercase">Our Office</h4>
                         <h2 className="text-head-pros">Located Around the World</h2>
                         <p  className="lead pra-head-pros">
