@@ -15,12 +15,12 @@ export const offices = [
         address:'Ground Floor، District 3, Area 2, Talaat Harb Axis Apt. 2, Cairo Governorate',
         img:London
     },
-    {
-        id:3,
-        country:'Dubai',
-        address:'Ground Floor، District 3, Area 2, Talaat Harb Axis Apt. 2, Cairo Governorate',
-        img:Dubai
-    },
+    // {
+    //     id:3,
+    //     country:'Dubai',
+    //     address:'Ground Floor، District 3, Area 2, Talaat Harb Axis Apt. 2, Cairo Governorate',
+    //     img:Dubai
+    // },
     {
         id:4,
         country:'Saudi Arabia',

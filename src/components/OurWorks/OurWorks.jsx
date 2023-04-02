@@ -3,8 +3,6 @@ import "./OurWorks.css";
 const OurWorks = ({id, title,description, img}) => {
   return (
     <>
-    
-          
               <img src={img} style={{width:"100%"}} className="rounded" />
               <div className="mb-3 work-text">
                 <h4 className="text-uppercase text-left text-muted  text-uppercase">
@@ -14,8 +12,6 @@ const OurWorks = ({id, title,description, img}) => {
                 {description}
                 </span>
               </div>
-           
-        
     </>
   );
 };

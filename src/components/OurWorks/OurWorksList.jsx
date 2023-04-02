@@ -3,7 +3,7 @@ import { Container, Col, Row } from "react-bootstrap";
 import {works} from '../../Data/WorksData'
 import OurWorks from './OurWorks';
 import {motion} from "framer-motion";
-
+import {AiOutlineArrowRight} from 'react-icons/ai';
 const OurWorksList = () => {
   return (
     <>
@@ -12,7 +12,6 @@ const OurWorksList = () => {
             transition={{ duration: 1, type: 'tween' }}
             className="work ptb-60"
         >
-
             <Container>
         <Row>
           <Col lg={12}>
@@ -39,12 +38,12 @@ const OurWorksList = () => {
          
          </Row>
  
-         <div lg={12} className="pt-3">
+         <div lg={12} className="pt-3 text-end">
            <a
              href={`/softwaredev`}
-             className="btn btn-link btn-costume-two"
+             className=""
            >
-             See More
+           <AiOutlineArrowRight className="arrow-link"/>
            </a>
          </div>
        </Container>

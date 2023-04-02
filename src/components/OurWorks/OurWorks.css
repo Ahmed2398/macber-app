@@ -29,3 +29,10 @@
     text-transform: capitalize;
     letter-spacing: 1px;
   }
+  .arrow-link{
+    font-size: 30px;
+    color: var(--primary-color1);
+  }
+  .arrow-link:hover{
+    transform: scale(1.2);
+  }

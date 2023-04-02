@@ -27,11 +27,11 @@ const Services = () => {
                         </Col>
                         {services.map((service, index)=>{
                             return(
-                                <Col lg={6} sm={12}>
-                                    <div className="d-flex my-5">
-                                        <img src={service.img} alt={service.name} className="mx-3 service-img"/>
+                                <Col lg={4} sm={12}>
+                                    <div className=" my-5 text-center">
+                                        <img src={service.img} alt={service.name} className="service-img"/>
                                         <div className="service-text m-auto">
-                                            <h2 className="">
+                                            <h2 className="text-center my-4">
                                                 {service.name}
                                             </h2>
                                             <p className="">{service.text}</p>

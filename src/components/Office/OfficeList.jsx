@@ -30,7 +30,7 @@ const OfficeList = () => {
                     {offices.map((office, index)=>{
                          const{id, country, address , img} = office;
                         return(
-                            <Col className=" mt-4 mt-lg-0 mt-xl-0" lg={3} md={6} key={index}>
+                            <Col className=" mt-4 mt-lg-0 mt-xl-0" lg={4} md={6} key={index}>
                                 <Office  id={id} country={country} address={address} img={img}/>
                 </Col>
                 
