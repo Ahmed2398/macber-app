@@ -35,10 +35,10 @@ const Projects = () => {
         <Col sm={3}>
           <Nav variant="pills" className="flex-column">
             <Nav.Item>
-              <Nav.Link className='tab__style text-white' eventKey="first">Mobile Applicatons</Nav.Link>
+              <Nav.Link className='tab__style text-white tab-link' eventKey="first">Mobile Applicatons</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link className='tab__style text-white' eventKey="second">Website Development</Nav.Link>
+              <Nav.Link className='tab__style text-white tab-link' eventKey="second">Website Development</Nav.Link>
             </Nav.Item>
           </Nav>
         </Col>

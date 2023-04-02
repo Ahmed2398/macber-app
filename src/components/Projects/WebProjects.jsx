@@ -30,7 +30,7 @@ const ProjectsList = () => {
                                                 <MDBCardTitle className='mx-3'>{webproject.title}</MDBCardTitle>
                                             </div>
 
-                                            <MDBCardText>
+                                            <MDBCardText className="h-50 p-card">
                                                 {webproject.description}
                                             </MDBCardText>
                                             <button className="btn btn-purble my-1" onClick={()=> changecontent(webproject)}>details</button>

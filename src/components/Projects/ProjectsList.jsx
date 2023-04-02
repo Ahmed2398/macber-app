@@ -39,7 +39,7 @@ const ProjectsList = () => {
                                 <MDBCardTitle className='mx-3'>{project.title}</MDBCardTitle>
                             </div>
 
-                            <MDBCardText className="h-25 ">
+                            <MDBCardText className="h-50 p-card ">
                                 {project.description}
                             </MDBCardText>
                             <div className="my-3">
