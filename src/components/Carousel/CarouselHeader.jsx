@@ -10,7 +10,7 @@ import boy from "../../assets/images/Boy.png";
 import SocialMedia from "../SocialMedia/SocialMedia";
 function CarouselHeader() {
   return (
-    <Container fluid>
+    <Container >
     {/* <div className="bubbles">
       <div className="bubble"></div>
       <div className="bubble"></div>
@@ -23,7 +23,7 @@ function CarouselHeader() {
       <div className="bubble"></div>
       <div className="bubble"></div>
     </div> */}
-      <Carousel className="">
+      <Carousel className="py-5">
         <Carousel.Item>
           <div className="mySlides  ">
             <div id="banner-one ">
@@ -39,13 +39,12 @@ function CarouselHeader() {
                     dexpertise on mobile apps across all mobile platforms. with
                     more than 10 years of experience in digital business and
                     mobile development field, appsinnovate can help you better
-                    engage your fans with mobile applications for smartphones
-                    and tablets.
+                    engage your fans with mobile applications.
                   </p>
                   {/* <a href="#" className="btn btn-costume-two" style="margin-left: 10px;">See More</a> */}
                 </div>
                 <div className="col-lg-6 col-sm-12 text-center">
-                  <img src={girl} alt="game" width="50%" />
+                  <img src={girl} alt="game" width="75%" />
                 </div>
               </Row>
             </div>
@@ -70,7 +69,7 @@ function CarouselHeader() {
                   {/* <a href="#" className="btn btn-costume-two" style="margin-left: 10px;">See More</a> */}
                 </div>
                 <div className="col-lg-6 col-sm-12 text-center">
-                  <img  src={boy} alt="newsoftkey" width="50%" />
+                  <img  src={boy} alt="newsoftkey" width="75%" />
                 </div>
               </Row>
             </div>

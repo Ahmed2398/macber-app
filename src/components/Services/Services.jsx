@@ -16,7 +16,7 @@ const Services = () => {
                 <Container>
                     <Row>
                         <Col xs={12} lg={12} className=" m-auto">
-                            <div className="content-head text-center">
+                            <div className="content-head text-center py-5">
                                 <h4 className="text-warning text-uppercase">Our Services</h4>
                                 {/*<h2 className="text-head-pros">Frequently Asked Questions</h2>*/}
                                 {/*<p className="lead pra-head-pros">*/}
@@ -27,7 +27,7 @@ const Services = () => {
                         </Col>
                         {services.map((service, index)=>{
                             return(
-                                <Col lg={6}>
+                                <Col lg={6} sm={12}>
                                     <div className="d-flex my-5">
                                         <img src={service.img} alt={service.name} className="mx-3 service-img"/>
                                         <div className="service-text m-auto">

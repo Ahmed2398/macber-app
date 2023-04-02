@@ -10,7 +10,7 @@ const Partners = () => {
       <motion.section
           whileInView={{ opacity: [0, 1] }}
           transition={{ duration: 1, type: 'tween' }}
-          className="clients landsape ptb-60 " id="Partners"
+          className="clients landsape  " id="Partners"
       >
           <div>
               <img src={macberOffice} alt="office" className="rounded-custom w-100" />

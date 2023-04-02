@@ -4,9 +4,11 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { benfits } from '../../Data/BenfitsData';
 import MissionPartners from '../MissionPartners/MissionPartners';
 import { motion } from "framer-motion"
+import './Benfits.css';
 function BenfitsList() {
   return (
    <>
+       <section className="ptb-120 benfits-bg" >
      <Container>
 
     <Row>
@@ -38,6 +40,7 @@ function BenfitsList() {
     </Row>
 
   </Container>
+       </section>
    </>
   )
 }

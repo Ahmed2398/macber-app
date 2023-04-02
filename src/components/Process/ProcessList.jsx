@@ -17,7 +17,7 @@ const ProcessList = () => {
     <Container>
         <Row>
         <Col xs={12} lg={12}>
-          <div className="content-head text-center pt-60">
+          <div className="content-head text-center pt-60 py-5">
             <h4 className="text-warning">Process</h4>
             <h2 className="">We Follow Our Work Process
             </h2>
@@ -35,7 +35,7 @@ const ProcessList = () => {
           </div>
         </Col>
        
-        <Col xs={12} lg={4} >
+        <Col xs={12} lg={6} >
         {process.map((proces, index)=>{
             const{step, head, text , icon} = proces;
             return(

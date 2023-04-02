@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <>
       
-      <MDBNavbar expand='lg' light bgColor='white' >
+      <MDBNavbar expand='lg'  >
         <MDBContainer fluid>
         <MDBNavbarBrand href={`/home`}>
           <NavLink to={'/'}>
