@@ -31,7 +31,7 @@ const ProjectsList = () => {
 
             {projects.map((project,index)=>{
                 return(
-                    <MDBCard>
+                    <MDBCard className="h-100">
                         <MDBCardImage src={project.imgCard} fluid alt={project.title} className="rounded" />
 
                         <MDBCardBody className='text-center office-body'>
@@ -39,7 +39,7 @@ const ProjectsList = () => {
                                 <MDBCardTitle className='mx-3'>{project.title}</MDBCardTitle>
                             </div>
 
-                            <MDBCardText className="h-50 p-card ">
+                            <MDBCardText className=" p-card ">
                                 {project.description}
                             </MDBCardText>
                             <div className="my-3">

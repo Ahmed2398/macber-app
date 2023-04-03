@@ -2,18 +2,28 @@ import egypt from '../assets/images/office/egypt.png'
 import Dubai from '../assets/images/office/dubai.png'
 import London from '../assets/images/office/london.png'
 import Sa from '../assets/images/office/saudi.png'
+
+import worldNetwork from '../assets/images/logos/World Network.svg'
+import macber from '../assets/images/logos/MacberLogo.svg'
+
 export const offices = [
     {
         id:1,
         country:'Egypt',
         address:'Ground Floor، District 3, Area 2, Talaat Harb Axis Apt. 2, Cairo Governorate',
-        img:egypt
+        img:egypt,
+        imgLogo:macber,
+        link:"https://www.google.com"
     },
     {
         id:2,
         country:'London',
-        address:'Ground Floor، District 3, Area 2, Talaat Harb Axis Apt. 2, Cairo Governorate',
-        img:London
+        address:'Business Services, 7 Bell Yard,\n' +
+            '\n' +
+            'London, UK, WC2A 2JR',
+        img:London,
+        imgLogo:macber,
+        link:"https://www.google.com"
     },
     // {
     //     id:3,
@@ -23,8 +33,11 @@ export const offices = [
     // },
     {
         id:4,
-        country:'Saudi Arabia',
-        address:'Ground Floor، District 3, Area 2, Talaat Harb Axis Apt. 2, Cairo Governorate',
-        img:Sa
+        country:'Riyadh',
+        address:'2329 Makkah Al Mukarramah Branch Road, Al Rabwah, Riyadh\n' +
+            'Saudi Arabia',
+        img:Sa,
+        imgLogo:worldNetwork,
+        link:"https://www.google.com"
     },
 ]

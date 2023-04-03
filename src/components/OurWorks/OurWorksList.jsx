@@ -3,7 +3,7 @@ import { Container, Col, Row } from "react-bootstrap";
 import {works} from '../../Data/WorksData'
 import OurWorks from './OurWorks';
 import {motion} from "framer-motion";
-import {AiOutlineArrowRight} from 'react-icons/ai';
+import {IoIosArrowForward} from 'react-icons/io';
 const OurWorksList = () => {
   return (
     <>
@@ -27,7 +27,7 @@ const OurWorksList = () => {
             {works.map((work, index)=>{
                 const {id, title, description, img} = work;
                 return(
-                    <Col lg={3} md={6} sm={12} className="pb-3" key={index}>
+                    <Col lg={2} md={6} sm={12} className="pb-3" key={index}>
                           <div className="box-work h-100  ">
                             <OurWorks key={id} title={title} description={description} img={img}/>
                           </div>
@@ -43,7 +43,7 @@ const OurWorksList = () => {
              href={`/softwaredev`}
              className=""
            >
-           <AiOutlineArrowRight className="arrow-link"/>
+           <IoIosArrowForward className="arrow-link"/>
            </a>
          </div>
        </Container>

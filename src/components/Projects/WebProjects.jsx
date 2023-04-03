@@ -22,7 +22,7 @@ const ProjectsList = () => {
                         <div className="content_container">
                             {webprojects.map((webproject,index)=>{
                                 return(
-                                    <MDBCard>
+                                    <MDBCard className="h-100">
                                         <MDBCardImage src={webproject.imgCard} fluid alt={webproject.title} className="rounded" />
 
                                         <MDBCardBody className='text-center office-body'>
@@ -30,7 +30,7 @@ const ProjectsList = () => {
                                                 <MDBCardTitle className='mx-3'>{webproject.title}</MDBCardTitle>
                                             </div>
 
-                                            <MDBCardText className="h-50 p-card">
+                                            <MDBCardText className=" p-card">
                                                 {webproject.description}
                                             </MDBCardText>
                                             <button className="btn btn-purble my-1" onClick={()=> changecontent(webproject)}>details</button>

@@ -1,7 +1,10 @@
-import web from '../assets/images/web-development(1).png';
-import mobile from '../assets/images/app-development.png';
-import ux from '../assets/images/ux-design.png';
-import game from '../assets/images/game-development.png'
+import ios from '../assets/images/services/s1.svg';
+import flutter from '../assets/images/services/s2.svg';
+import web from '../assets/images/services/web-development(1).png';
+import game from '../assets/images/services/s3.svg';
+import ux from '../assets/images/services/ux-design.png';
+
+
 export const services = [
     {
         id: 1,
@@ -19,19 +22,19 @@ export const services = [
         id: 3,
         name: 'iOS Development',
         text: 'It is our strength for years to develop iOS apps, each serving distinct market segments and specific client needs.',
-        img: mobile
+        img: ios
     },
     {
         id: 4,
         name: 'Android Development',
         text: 'We have extensive experience in developing android apps with high performance, whether it is enterprise apps, innovative consumer-focused apps, or games.',
-        img: mobile
+        img: flutter
     },
     {
         id: 5,
         name: 'Flutter Development',
         text: 'Take control of your codebase with automated testing, developer tooling, and everything else you need to build production-quality apps.',
-        img: mobile
+        img: flutter
     },
     {
         id: 6,

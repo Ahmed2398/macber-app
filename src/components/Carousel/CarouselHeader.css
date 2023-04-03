@@ -153,5 +153,6 @@ position: absolute;
 
   .carousel-control-prev-icon , .carousel-control-next-icon{
     background-image: none;
+    display: none;
   }
   /* End */

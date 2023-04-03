@@ -10,28 +10,41 @@ import './Office.css'
 import { MDBIcon } from 'mdb-react-ui-kit'
 
 import {ImOffice} from 'react-icons/im'
-const Office = ({country, address, img}) => {
+import world from '../../assets/images/logos/World Network.svg';
+const Office = ({country, address, img, link, imgLogo}) => {
     
   return (
     <>
-   
-             
-   <MDBCard>
+
+        <a href="https://www.google.com" target="_blank">
+   <MDBCard className="h-100">
+
         <MDBCardImage src={img} fluid alt={country} className="rounded" />
-    
       <MDBCardBody className='text-center office-body'>
+
           <div className='d-flex justify-content-center'>
+
               <ImOffice className='icon_office'/>
-              <MDBCardTitle className='mx-3'>{country}</MDBCardTitle>
+              <MDBCardTitle className='mx-3 '>{country}
+
+              </MDBCardTitle>
+
           </div>
 
-        <MDBCardText>
-            {address}
-        </MDBCardText>
-      
+          <div className="d-flex justify-content-between">
+
+              <img src={imgLogo} alt="" className="w-25" />
+              <MDBCardText className="m-auto">
+
+                  {address}
+              </MDBCardText>
+
+          </div>
+
+
       </MDBCardBody>
     </MDBCard>
-            
+    </a>
     </>
   )
 }

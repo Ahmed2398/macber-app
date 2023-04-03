@@ -21,7 +21,7 @@ const Home = () => {
     <ProcessList/>
       <OurWorksList/>
       <ContactUs/>
-    <TeamList/>
+    {/*<TeamList/>*/}
     <OfficeList/>
       {/*<Clients/>*/}
       <FaqList/>

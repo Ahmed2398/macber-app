@@ -87,7 +87,7 @@ const Footer = () => {
 
     <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
       Copyright ©2023
-      <NavLink className='text-reset fw-bold mx-1 text-uppercase' to={'/'}>Macber eg</NavLink>
+      <NavLink className='text-reset fw-bold mx-1 text-uppercase' to={'/'}>Macber co</NavLink>
       .All Rights Reserved.
     </div>
   </MDBFooter>
