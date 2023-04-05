@@ -17,6 +17,9 @@
     font-size: 13px;
     text-align: left;
   }
+  .box-work .btn{
+    padding: 0;
+  }
   .box-work h4{
     color: var(--primary-color1) !important;
     font-size: 16px;

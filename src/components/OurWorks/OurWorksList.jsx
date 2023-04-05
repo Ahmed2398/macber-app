@@ -5,6 +5,7 @@ import OurWorks from './OurWorks';
 import {motion} from "framer-motion";
 import {IoIosArrowForward} from 'react-icons/io';
 import {MDBCard,MDBCardImage} from "mdb-react-ui-kit";
+import './OurWorks.css'
 const OurWorksList = () => {
 
     const [popupcontent, setpopupcontent] = useState([]);
@@ -36,8 +37,8 @@ const OurWorksList = () => {
                         <div className="content_container">
                             {works.map((work,index)=>{
                                 return(
-                                    <MDBCard className="h-100 box-work my-3">
-                                        <button className="btn "  onClick={()=> changecontent(work)}>
+                                    <MDBCard className="h-100 box-work ">
+                                        <button className="btn" style={{padding:0}}  onClick={()=> changecontent(work)}>
                                         <MDBCardImage src={work.imgCard} fluid alt={work.title} className="rounded" />
                                         </button>
                                     </MDBCard>
