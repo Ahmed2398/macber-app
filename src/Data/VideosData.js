@@ -22,5 +22,9 @@ export const videos = [
     {
         id:6,
         src: 'https://www.youtube.com/embed/RVRQjndwCqI'
+    },
+    {
+        id:7,
+        src: 'https://www.youtube.com/embed/OMvTK9WYZmI'
     }
 ]
