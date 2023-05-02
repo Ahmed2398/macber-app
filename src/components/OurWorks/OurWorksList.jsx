@@ -6,6 +6,7 @@ import {motion} from "framer-motion";
 import {IoIosArrowForward} from 'react-icons/io';
 import {MDBCard,MDBCardImage} from "mdb-react-ui-kit";
 import './OurWorks.css'
+import {NavLink} from "react-router-dom";
 const OurWorksList = () => {
 
     const [popupcontent, setpopupcontent] = useState([]);
@@ -30,18 +31,21 @@ const OurWorksList = () => {
                                 </h4>
                             </div>
                         </Col>
-                    </Row>
-                <Row>
+
+
+
 
                     <div className="app_container">
                         <div className="content_container">
                             {works.map((work,index)=>{
                                 return(
+
                                     <MDBCard className="h-100 box-work ">
                                         <button className="btn" style={{padding:0}}  onClick={()=> changecontent(work)}>
                                         <MDBCardImage src={work.imgCard} fluid alt={work.title} className="rounded" />
                                         </button>
                                     </MDBCard>
+
                                 );
                             })}
                         </div>
@@ -71,14 +75,15 @@ const OurWorksList = () => {
                             </div>
                         )}
                     </div>
-                    <div lg={12} className="pt-3 text-end">
-                        <a
-                            href={`/softwaredev`}
+
+                    <Col lg={12} className="pt-3 text-end">
+                        <NavLink to={'softwaredev'}
+
                             className=""
                         >
                             <IoIosArrowForward className="arrow-link"/>
-                        </a>
-                    </div>
+                        </NavLink>
+                    </Col>
                 </Row>
 
 
