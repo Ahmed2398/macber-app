@@ -1,0 +1,15 @@
+.faq  .slick-slide{
+    display: grid;
+    justify-content: center;
+}
+.clients-slider .image-box{
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.img-box img{
+    width: 100%;
+}

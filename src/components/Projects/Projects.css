@@ -1,13 +1,18 @@
 .nav-pills .nav-link{
-    background-color: var(--primary-color1);
+    background:none;
     text-align: center;
+    border-bottom: 1px solid var(--secondary-color);
 }
-.nav-pills .nav-link:active {
-    color: yellow !important;
-    background-color: var(--primary-color1);
+/*.nav-pills .nav-link:active {*/
+/*    color: yellow !important;*/
+/*    background-color: var(--primary-color1);*/
+/*}*/
+.nav-item{
 }
 .nav-item .tab-link{
     font-size: 22px !important;
+    font-weight: bold;
+
 }
 
 .app_container{
@@ -80,5 +85,10 @@
     text-align: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
-    background-color: gray;
+    background: none;
+    color: var(--primary-color1);
+    border-bottom:1px solid var(--primary-color1);
+}
+.nav-pills {
+    --bs-nav-pills-border-radius: 0;
 }

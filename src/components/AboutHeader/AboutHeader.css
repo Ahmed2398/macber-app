@@ -162,3 +162,7 @@
     width: 100%;
 }
 /* End Section */
+.about-header-section .head-banner-h1{
+    font-size: 91px;
+    text-transform: capitalize;
+}

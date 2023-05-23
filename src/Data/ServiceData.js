@@ -1,9 +1,17 @@
-import ios from '../assets/images/services/ios.png';
-import flutter from '../assets/images/services/mobile-development.png';
-import web from '../assets/images/services/Website.png';
+// import ios from '../assets/images/services/ios.png';
+// import flutter from '../assets/images/services/mobile-development.png';
+// import web from '../assets/images/services/Website.png';
+// import game from '../assets/images/services/game.png';
+// import ux from '../assets/images/services/Ux.png';
+// import android from '../assets/images/services/android.png';
+//
+
+import ios from '../assets/images/services/App-store.png';
+import flutter from '../assets/images/services/flutter.png';
+import web from '../assets/images/services/web.png';
 import game from '../assets/images/services/game.png';
-import ux from '../assets/images/services/Ux.png';
-import android from '../assets/images/services/android.png';
+import ux from '../assets/images/services/Ux-Ui.png';
+import android from '../assets/images/services/Android.png';
 
 
 export const services = [

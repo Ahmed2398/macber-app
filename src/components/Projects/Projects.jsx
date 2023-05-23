@@ -8,13 +8,12 @@ import WebProjects from "./WebProjects";
 const Projects = () => {
   return (
     <>
-    <section className='projects ptb-60'>
+    <section className='projects '>
     <Container>
       <Row>
         <Col  lg={6} sm={6} className="m-auto">
           <h3 className="head-banner h3-banner">Software </h3>
-          <h1 className="head-banner"> Development
-          </h1>
+          <h1 className="head-banner"> Development</h1>
           <p className=" text-banner text-muted">Macber masters the art of software development. Thanks to our dedicated
             team's effort who utilize their years of experience in conveying, designing, coding, programming, testing,
             and optimizing various and highly innovative software programs to help you better achieve your
@@ -31,28 +30,31 @@ const Projects = () => {
     </Container>
     </section>
     <Tab.Container id="left-tabs-example" defaultActiveKey="first">
-      <Row>
-        <Col sm={3}>
-          <Nav variant="pills" className="flex-column">
-            <Nav.Item>
-              <Nav.Link className='tab__style text-white tab-link' eventKey="first">Mobile Applicatons</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link className='tab__style text-white tab-link' eventKey="second">Website Development</Nav.Link>
-            </Nav.Item>
-          </Nav>
-        </Col>
-        <Col sm={9}>
-          <Tab.Content>
-            <Tab.Pane eventKey="first">
-          <ProjectsList/>
-            </Tab.Pane>
-            <Tab.Pane eventKey="second">
-         <WebProjects/>
-            </Tab.Pane>
-          </Tab.Content>
-        </Col>
-      </Row>
+      <Container>
+        <Row>
+          <Col lg={12}>
+            <Nav variant="pills" className="d-flex justify-content-center">
+              <Nav.Item>
+                <Nav.Link className='tab__style  tab-link' eventKey="first">Mobile Applicatons</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link className='tab__style  tab-link' eventKey="second">Website Development</Nav.Link>
+              </Nav.Item>
+            </Nav>
+          </Col>
+          <Col sm={12}>
+            <Tab.Content>
+              <Tab.Pane eventKey="first">
+                <ProjectsList/>
+              </Tab.Pane>
+              <Tab.Pane eventKey="second">
+                <WebProjects/>
+              </Tab.Pane>
+            </Tab.Content>
+          </Col>
+        </Row>
+      </Container>
+
     </Tab.Container>
     </>
   )

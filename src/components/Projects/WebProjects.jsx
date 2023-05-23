@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { Container, Row , Col} from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import {webprojects} from "../../Data/WebProjectsData";
 import {MDBCard, MDBCardBody, MDBCardImage, MDBCardText, MDBCardTitle} from "mdb-react-ui-kit";
 

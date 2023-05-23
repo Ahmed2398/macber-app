@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
-import contact from '../../assets/images/contactHead.png'
+// import contact from '../../assets/images/contactHead.png'
 import SocialMedia from '../SocialMedia/SocialMedia';
 import {motion} from "framer-motion";
 import './ContactUS.css';
@@ -10,12 +10,12 @@ const ContactUs = () => {
         event.preventDefault();
         setResult("Sending....");
         const formData = new FormData(event.target);
-    
+
         formData.append("access_key", "ba10cc36-c997-4be3-9982-1c6e9191239c");
-    
+
         const object = Object.fromEntries(formData);
         const json = JSON.stringify(object);
-    
+
         const res = await fetch("https://api.web3forms.com/submit", {
           method: "POST",
           headers: {
@@ -44,13 +44,11 @@ const ContactUs = () => {
     <Container>
         <Row>
             <Col xs={12} lg={6} className="m-auto">
-                
-
             {/*<img src={contact} alt={contact}/>*/}
               <h2 className="text-warning contactHead">Contact Us LET’S WORK TOGETHER</h2>
           <p className="text-white ">Reach out to us for a consultation, overview, and to know more about our services.
           </p>
-          
+
           <i className="fa-solid fa-location-dot text-white mt-2 mx-2"></i>
           <span className="text-white">Address: Building 2, Ground Floor, Apt. 1, Talaat Harb Axis, District 3, Area 4,
             Fifth settlement, New Cairo, Egypt</span>
@@ -77,13 +75,12 @@ const ContactUs = () => {
         </form>
                 <span>{result}</span>
             </Col>
-
         </Row>
     </Container>
         </motion.section>
-    
+
     </>
- 
+
   )
 }
 

@@ -1,141 +1,145 @@
-import c1 from '../assets/images/clients/c1.png';
-import c2 from '../assets/images/clients/c2.png';
-import c3 from '../assets/images/clients/c3.png';
-import c4 from '../assets/images/clients/c4.png';
-import c5 from '../assets/images/clients/c5.png';
-import c6 from '../assets/images/clients/c6.png';
-import c7 from '../assets/images/clients/c7.png';
-import c8 from '../assets/images/clients/c8.png';
-import c9 from '../assets/images/clients/c9.png';
-import c10 from '../assets/images/clients/c10.png';
-import c11 from '../assets/images/clients/c11.png';
-import c12 from '../assets/images/clients/c12.png';
-import c13 from '../assets/images/clients/c13.png';
-import c14 from '../assets/images/clients/c14.png';
-import c15 from '../assets/images/clients/c15.png';
-import c16 from '../assets/images/clients/c16.png';
-import c17 from '../assets/images/clients/c17.png';
-import c18 from '../assets/images/clients/c18.png';
-import c19 from '../assets/images/clients/c19.png';
-import c20 from '../assets/images/clients/c20.png';
-import c21 from '../assets/images/clients/c21.png';
-import c22 from '../assets/images/clients/c22.png';
-import c23 from '../assets/images/clients/c23.png';
+import c1 from '../assets/images/clients/Mobil-1.png';
+import c2 from '../assets/images/clients/Alianz.png';
+import c3 from '../assets/images/clients/AUC.png';
+import c4 from '../assets/images/clients/betyu.png';
+import c5 from '../assets/images/clients/El-araby.png';
+import c6 from '../assets/images/clients/Festifal-city.png';
+import c7 from '../assets/images/clients/HSBC.png';
+import c8 from '../assets/images/clients/Huawei.png';
+import c9 from '../assets/images/clients/ICs.png';
+import c10 from '../assets/images/clients/Informa.png';
+import c11 from '../assets/images/clients/Isdeal.png';
+import c12 from '../assets/images/clients/juhayna.png';
+import c13 from '../assets/images/clients/mall.png';
+import c14 from '../assets/images/clients/NJ.png';
+import c15 from '../assets/images/clients/Novarts.png';
+import c16 from '../assets/images/clients/Oppo.png';
+import c17 from '../assets/images/clients/OSN.png';
+import c18 from '../assets/images/clients/Vodafone.png';
+import c19 from '../assets/images/clients/we.png';
+import c20 from '../assets/images/clients/Golf-bortos.png';
+
 
 export const clients = [
     {
         id: 1,
         img: c1,
-        name:'client'
+        name:'mobil',
+        link:'https://www.mobil.com/en/lubricants/for-personal-vehicles'
     },
     {
         id: 2,
         img: c2,
-        name:'client'
+        name:'allianz',
+        link:'https://www.allianz.com.eg/en_GB.html',
     },
     {
         id: 3,
         img: c3,
-        name:'client'
+        name:'aucegypt',
+        link:'https://www.aucegypt.edu/'
     },
     {
         id: 4,
         img: c4,
-        name:'client'
+        name:'beytiegypt',
+        link:'https://www.beytiegypt.com/'
     },
     {
         id: 5,
         img: c5,
-        name:'client'
+        name:'elarabygroup',
+        link:'https://www.elarabygroup.com/ar/'
     },
     {
         id: 6,
         img: c6,
-        name:'client'
+        name:'festivalcitymallcairo',
+        link:'https://www.festivalcitymallcairo.com/home/'
     },
     {
         id: 7,
         img: c7,
-        name:'client'
+        name:'https://www.hsbc.com.eg/',
+        link:''
     },
     {
         id: 8,
         img: c8,
-        name:'client'
+        name:'huawei',
+        link:'https://www.huawei.com/en/'
     },
     {
         id: 9,
         img: c9,
-        name:'client'
+        name:'cairoconstructionhub',
+        link:'https://www.cairoconstructionhub.com/'
     },
     {
         id: 10,
         img: c10,
-        name:'client'
+        name:'informa',
+        link:'https://www.informa.com/'
     },
     {
         id: 11,
         img: c11,
-        name:'client'
+        name:'idealstandard-egypt',
+        link:'https://idealstandard-egypt.com/'
     },
     {
         id: 12,
         img: c12,
-        name:'client'
+        name:'https://www.juhayna.com/en/en',
+        link:'juhayna'
     },
     {
         id: 13,
         img: c13,
-        name:'client'
+        name:'mallofarabiacairo',
+        link:'https://www.instagram.com/mallofarabiacairo/?hl=en'
     },
     {
         id: 14,
         img: c14,
-        name:'client'
+        name:'nile',
+        link:'https://www.nu.edu.eg/home'
     },
     {
         id: 15,
         img: c15,
-        name:'client'
+        name:'novartis',
+        link:'https://www.novartis.com/'
     },
     {
         id: 16,
         img: c16,
-        name:'client'
+        name:'oppo',
+        link:'https://www.oppo.com/en/'
     },
     {
         id: 17,
         img: c17,
-        name:'client'
+        name:'osn',
+        link:'https://www.osn.com/en-eg/home'
     },
     {
         id: 18,
         img: c18,
-        name:'client'
+        name:'vodafone',
+        link:'https://web.vodafone.com.eg/en/home'
     },
     {
         id: 19,
         img: c19,
-        name:'client'
+        name:'we',
+        link:'https://te.eg/wps/portal/te/Persona'
     },
     {
         id: 20,
         img: c20,
-        name:'client'
+        name:'Golf',
+        link:''
     },
-    {
-        id: 21,
-        img: c21,
-        name:'client'
-    },
-    {
-        id: 22,
-        img: c22,
-        name:'client'
-    },
-    {
-        id: 23,
-        img: c23,
-        name:'client'
-    }
+
 ]

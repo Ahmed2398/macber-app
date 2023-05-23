@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+// import {
+//   createBrowserRouter,
+//   RouterProvider,
+// } from "react-router-dom";
 import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';

@@ -2,9 +2,10 @@ import React from 'react'
 import Benfits from './Benfits'
 import { Container, Row, Col } from 'react-bootstrap'
 import { benfits } from '../../Data/BenfitsData';
-import MissionPartners from '../MissionPartners/MissionPartners';
+// import MissionPartners from '../MissionPartners/MissionPartners';
 import { motion } from "framer-motion"
 import './Benfits.css';
+import macber from '../../assets/images/logos/MacberLogo.svg';
 function BenfitsList() {
   return (
    <>
@@ -13,10 +14,14 @@ function BenfitsList() {
 
     <Row>
     <Col xs={12} lg={12}>
-      <h1 className="about-content-head f-39 pt-5 text-center text-capitalize">
-              THE BENEFITS OF OUTSOURCING TO MACBER</h1>
+        <div className="d-flex justify-content-center">
+            <img src={macber} className="w-25" alt="macber benfits"/>
+
+        </div>
+      <h1 className="about-content-head f-39 pt-1 text-center text-capitalize">Your Trusted Technology Partner</h1>
             <p className="text-center lead about-content text-center">
-              Best-in-className talent, competitive costs, incredible infrastructure
+                Access the Best-In-Class Talent, Competitive Costs, and Incredible <br/>Streamlined Processes your
+                business needs to succeed.
             </p>
       </Col>
    {benfits.map((benfit, index)=>{
@@ -33,9 +38,8 @@ function BenfitsList() {
         </Col>
 
     )
-   
-   })}
 
+   })}
 
     </Row>
 

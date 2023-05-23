@@ -1,10 +1,10 @@
 import React from 'react';
 import {motion} from "framer-motion";
 import {Col, Container, Row} from "react-bootstrap";
-import phone from '../../assets/images/phone.png';
+// import phone from '../../assets/images/phone.png';
 import './Services.css'
 import {services} from "../../Data/ServiceData";
-import {industries} from "../../Data/IndustriesData";
+// import {industries} from "../../Data/IndustriesData";
 const Services = () => {
     return (
         <>

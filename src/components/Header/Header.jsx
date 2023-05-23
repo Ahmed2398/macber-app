@@ -9,17 +9,17 @@ import {
   MDBContainer,
   MDBIcon,
   MDBCollapse,
- 
+
 } from 'mdb-react-ui-kit';
 import logo from '../../assets/images/logos/MacberLogo.svg';
 import './Header.css'
 import {NavLink} from "react-router-dom";
 const Header = () => {
     const [showBasic, setShowBasic] = useState(false);
-   
+
   return (
     <>
-      
+
       <MDBNavbar expand='lg'  >
         <MDBContainer fluid className="nav-container"  >
         <MDBNavbarBrand href={`/home`}>
@@ -65,13 +65,20 @@ const Header = () => {
               <MDBNavbarItem>
                 <NavLink style={({ isActive }) => ({
                   color: isActive ? '#ffc107' : '#818181',
+                })} to={'digital'} className="nav-link" >
+                  Digital Activations
+                </NavLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem>
+                <NavLink style={({ isActive }) => ({
+                  color: isActive ? '#ffc107' : '#818181',
                 })} to={'contact'} className="nav-link" >Contact US</NavLink>
               </MDBNavbarItem>
             </MDBNavbarNav>
           </MDBCollapse>
         </MDBContainer>
       </MDBNavbar>
-    
+
     </>
   )
 }

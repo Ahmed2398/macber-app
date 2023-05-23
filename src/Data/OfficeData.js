@@ -1,10 +1,10 @@
 import egypt from '../assets/images/office/egypt.png'
-import Dubai from '../assets/images/office/dubai.png'
+// import Dubai from '../assets/images/office/dubai.png'
 import London from '../assets/images/office/london.png'
 import Sa from '../assets/images/office/saudi.png'
 
-import worldNetwork from '../assets/images/logos/World Network.svg'
-import macber from '../assets/images/logos/MacberLogo.svg'
+// import worldNetwork from '../assets/images/logos/World Network.svg'
+// import macber from '../assets/images/logos/MacberLogo.svg'
 
 export const offices = [
     {
