@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import SoftwareDev from './pages/SoftwareDev';
 import Contact from "./pages/Contact";
+import DigitalActivations from "./pages/DigitalActivations";
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
    <Route path="/"  element={<Home />} />
    <Route path='about'  element={<About />}/>
    <Route path='softwaredev' element={<SoftwareDev />}/>
-   <Route path='contact' element={<Contact />}/>
+       <Route path='digital' element={<DigitalActivations />}/>
+
+       <Route path='contact' element={<Contact />}/>
 
    </Routes>
     <Footer/>

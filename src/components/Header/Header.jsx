@@ -58,14 +58,14 @@ const Header = () => {
               <MDBNavbarItem>
                 <NavLink style={({ isActive }) => ({
                   color: isActive ? '#ffc107' : '#818181',
-                })} to={'softwaredev'} className="nav-link" >
+                })} to={'softwaredev'} className="nav-link text-capitalize" >
                   software development
                   </NavLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
                 <NavLink style={({ isActive }) => ({
                   color: isActive ? '#ffc107' : '#818181',
-                })} to={'digital'} className="nav-link" >
+                })} to={'digital'} className="nav-link text-capitalize" >
                   Digital Activations
                 </NavLink>
               </MDBNavbarItem>

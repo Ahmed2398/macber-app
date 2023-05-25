@@ -5,6 +5,8 @@ import Carousel from "react-bootstrap/Carousel";
 import "../Carousel/CarouselHeader.css";
 import girl from "../../assets/images/girl.png";
 import boy from "../../assets/images/Boy.png";
+import digital from "../../assets/images/digital.png";
+
 
 import SocialMedia from "../SocialMedia/SocialMedia";
 function CarouselHeader() {
@@ -42,7 +44,7 @@ function CarouselHeader() {
                   {/* <a href="#" className="btn btn-costume-two" style="margin-left: 10px;">See More</a> */}
                 </div>
                 <div className="col-lg-6 col-sm-12 text-center">
-                  <img src={girl} alt="game" width="75%" />
+                  <img src={digital} alt="game" width="75%" />
                 </div>
               </Row>
             </div>
@@ -94,7 +96,7 @@ function CarouselHeader() {
                 {/* <a href="#" className="btn btn-costume-two" style="margin-left: 10px;">See More</a> */}
               </div>
               <div className="col-lg-6 col-sm-12 text-center">
-                <img  src={boy} alt="newsoftkey" width="75%" />
+                <img  src={girl} alt="newsoftkey" width="75%" />
               </div>
             </Row>
           </div>

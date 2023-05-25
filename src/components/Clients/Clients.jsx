@@ -13,7 +13,7 @@ const Clients = () => {
         slidesToShow: 3,
         rows: 2,
         slidesPerRow: 1,
-        autoplay: false,
+        autoplay: true,
         speed: 2000,
         autoplaySpeed: 1000,
         cssEase: "linear",

@@ -4,6 +4,8 @@ import {motion} from "framer-motion";
 import './Videos.css';
 import {videos} from "../../Data/VideosData";
 import Videos from "./Videos";
+import {NavLink} from "react-router-dom";
+import {IoIosArrowForward} from "react-icons/io";
 
 const VideosList = () => {
     return (
@@ -21,7 +23,7 @@ const VideosList = () => {
                                 {/*<h2 className="text-head-pros">Our Innovations</h2>*/}
                             </div>
                         </Col>
-                        {videos.map((video, index)=>{
+                        {videos.slice(0,6).map((video, index)=>{
                             const {id, src} = video;
                             return(
                                 <Col key={index}  lg={4} md={6} sm={6}>
@@ -30,6 +32,11 @@ const VideosList = () => {
                             )
 
                         })}
+                        <Col lg={12} className="pt-3 text-start">
+                            <NavLink to={'digital'} className="">
+                                <button className="btn btn-link btn-purble-outline"> see more<IoIosArrowForward className="arrow-link"/></button>
+                            </NavLink>
+                        </Col>
                     </Row>
                 </Container>
             </motion.section>

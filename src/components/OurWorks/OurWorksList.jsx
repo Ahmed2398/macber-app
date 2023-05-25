@@ -25,19 +25,20 @@ const OurWorksList = () => {
                 <Container>
                     <Row>
                         <Col lg={12}>
-                            <div className="head-content pb-3">
-                                <h4 className="small-text text-warning text-center mb-5">
+                            <div className="head-content pb-1">
+                                <h4 className="small-text text-warning text-center mb-3">
                                     Our Works
                                 </h4>
                             </div>
                         </Col>
-
-
-
-
                     <div className="app_container">
+                        <div className="head-content pb-1">
+                            <h4 className=" text-uppercase text-center">
+                                Software Development
+                            </h4>
+                        </div>
                         <div className="content_container">
-                            {works.map((work,index)=>{
+                            {works.slice(0, 6).map((work,index)=>{
                                 return(
 
                                     <MDBCard className="h-100 box-work ">
@@ -76,12 +77,9 @@ const OurWorksList = () => {
                         )}
                     </div>
 
-                    <Col lg={12} className="pt-3 text-end">
-                        <NavLink to={'softwaredev'}
-
-                            className=""
-                        >
-                            <IoIosArrowForward className="arrow-link"/>
+                    <Col lg={12} className="pt-3 text-start">
+                        <NavLink to={'softwaredev'} className="">
+                           <button className="btn btn-link btn-purble-outline"> see more<IoIosArrowForward className="arrow-link"/></button>
                         </NavLink>
                     </Col>
                 </Row>
