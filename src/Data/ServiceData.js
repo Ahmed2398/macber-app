@@ -48,7 +48,7 @@ export const services = [
     {
         id: 6,
         name: 'Game Development',
-        text: 'Take control of your codebase with automated testing, developer tooling, and everything else you need to build production-quality apps.',
+        text: 'Having the public and your clients enter competitions, winning prizes and having fun is always good. Macber designs, builds, and programs products to create such experiences, whether it be a VR Game, wheel of fortune, or a human sized phone. You choose and we make it happen.',
         img: game
     },
 ]
