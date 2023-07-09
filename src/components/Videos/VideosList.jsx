@@ -17,16 +17,24 @@ const VideosList = () => {
             >
                 <Container>
                     <Row>
-                        <Col lg={12} sm={12}>
-                            <div className="head-content text-center py-5">
-                                <h4 className="text-warning text-uppercase">Macber activations</h4>
-                                {/*<h2 className="text-head-pros">Our Innovations</h2>*/}
+                        <Col lg={12}>
+                            <div className="head-content pb-1">
+                                <h4 className="small-text text-warning text-center mb-3">
+                                    Our Works
+                                </h4>
                             </div>
+                        </Col>
+                        <Col lg={12} sm={12}>
+                            <div className="head-content pb-5">
+                                <h4 className=" text-uppercase text-center">
+                                    Macber Activations                                </h4>
+                            </div>
+
                         </Col>
                         {videos.slice(0,6).map((video, index)=>{
                             const {id, src} = video;
                             return(
-                                <Col key={index}  lg={4} md={6} sm={6}>
+                                <Col key={index}  lg={4} md={6} sm={12}>
                                    <Videos id={id} src={src} />
                                 </Col>
                             )

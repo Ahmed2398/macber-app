@@ -1,5 +1,5 @@
 import egypt from '../assets/images/office/egypt.png'
-// import Dubai from '../assets/images/office/dubai.png'
+import Dubai from '../assets/images/office/dubai.png'
 import London from '../assets/images/office/london.png'
 import Sa from '../assets/images/office/saudi.png'
 
@@ -13,7 +13,8 @@ export const offices = [
         address:'Ground Floor، District 3, Area 2, Talaat Harb Axis Apt. 2, Cairo Governorate',
         img:egypt,
         mapLink:"https://goo.gl/maps/csBszafSWWUm2gAH7",
-        link:"https://www.macber-eg.com/"
+        link:"https://www.macber-eg.com/",
+        phone: '+201000600109'
     },
     {
         id:2,
@@ -25,12 +26,15 @@ export const offices = [
         mapLink:"https://goo.gl/maps/jmmnKKnpt4BYpaH3A",
         // link:"https://www.google.com"
     },
-    // {
-    //     id:3,
-    //     country:'Dubai',
-    //     address:'Ground Floor، District 3, Area 2, Talaat Harb Axis Apt. 2, Cairo Governorate',
-    //     img:Dubai
-    // },
+    {
+        id:3,
+        country:'Dubai',
+        address:'The Burlington Towers – Office 801 – 8th Floor\n' +
+            'Business Bay – Dubai – UAE',
+        img:Dubai,
+        mapLink:"https://goo.gl/maps/P5C6dyyNwJswccH46",
+        phone: '+971507948394'
+    },
     {
         id:4,
         country:'Riyadh',
@@ -38,6 +42,7 @@ export const offices = [
             'Saudi Arabia',
         img:Sa,
         mapLink:"https://goo.gl/maps/2j4a1YZkDzbErG6j8",
-        link:"http://shbkatksa.com/"
+        link:"http://shbkatksa.com/",
+        phone: '+966590603049'
     },
 ]

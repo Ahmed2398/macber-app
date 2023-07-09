@@ -24,15 +24,9 @@ const OurWorksList = () => {
             >
                 <Container>
                     <Row>
-                        <Col lg={12}>
-                            <div className="head-content pb-1">
-                                <h4 className="small-text text-warning text-center mb-3">
-                                    Our Works
-                                </h4>
-                            </div>
-                        </Col>
+
                     <div className="app_container">
-                        <div className="head-content pb-1">
+                        <div className="head-content py-5">
                             <h4 className=" text-uppercase text-center">
                                 Software Development
                             </h4>

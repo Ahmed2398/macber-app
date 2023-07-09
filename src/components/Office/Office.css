@@ -16,3 +16,12 @@
     text-transform: uppercase;
 
 }
+
+.card-text{
+    font-size: 14px;
+    font-weight: 600;
+}
+.phone a {
+    font-size:14px;
+    color: #b6b6b6;
+}

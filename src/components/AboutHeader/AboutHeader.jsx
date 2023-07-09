@@ -111,16 +111,16 @@ const AboutHeader = () => {
                                 <div className="story-grid rounded-custom bg-dark overflow-hidden position-relative">
                                     <div className="story-item bg-light border">
                                         <h3 className="display-5 fw-bold mb-1 text-success counter"
-                                            data-speed="1000">152</h3>
-                                        <h6 className="mb-0">Active Users</h6>
+                                            data-speed="1000">+ 2,000,000</h3>
+                                        <h6 className="mb-0">Served  Users</h6>
                                     </div>
                                     <div className="story-item bg-white border">
                                         <h3 className="display-5 fw-bold mb-1 text-primary counter"
-                                            data-speed="1000">29</h3>
+                                            data-speed="1000">46</h3>
                                         <h6 className="mb-0">Team Members</h6>
                                     </div>
                                     <div className="story-item bg-light border">
-                                        <h3 className="display-5 fw-bold mb-1 text-warning ">7</h3>
+                                        <h3 className="display-5 fw-bold mb-1 text-warning ">9</h3>
                                         <h6 className="mb-0">Years In Business</h6>
                                     </div>
                                     <div className="story-item bg-light border">

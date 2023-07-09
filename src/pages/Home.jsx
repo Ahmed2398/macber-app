@@ -20,9 +20,10 @@ const Home = () => {
     <BenfitsList/>
     {/*<Partners/>*/}
       <Services/>
-    <ProcessList/>
-      <OurWorksList/>
+    {/* <ProcessList/> */}
       <VideosList/>
+      <OurWorksList/>
+
     {/*<TeamList/>*/}
     <OfficeList/>
       {/*<FaqList/>*/}

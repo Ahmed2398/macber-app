@@ -9,7 +9,7 @@ const Footer = () => {
     <MDBFooter className='text-center text-lg-start text-muted'>
     <section className='d-flex justify-content-center justify-content-lg-between'>
 
-   
+
     </section>
     <section className=''>
       <MDBContainer className='text-center text-md-start mt-5'>
@@ -48,7 +48,12 @@ const Footer = () => {
             <h6 className='text-uppercase fw-bold mb-4'>Services</h6>
             <p>
               <NavLink to={'softwaredev'} className='text-reset'>
-              Software Development 
+              Software Development
+              </NavLink>
+            </p>
+            <p>
+              <NavLink to={'digital'} className='text-reset'>
+                Digital Activations
               </NavLink>
             </p>
             {/*<p>*/}

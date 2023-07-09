@@ -27,10 +27,10 @@ const OfficeList = () => {
                 </Col>
                     {/* style="background: url('images/office-img-1.jpg') no-repeat center center / cover" */}
                     {offices.map((office, index)=>{
-                         const{id, country, address , img, link, mapLink} = office;
+                         const{id, country, address , img, link, mapLink, phone} = office;
                         return(
-                            <Col className=" mt-4 mt-lg-0 mt-xl-0" lg={4} md={6} key={index}>
-                                <Office  id={id} country={country} address={address} img={img} link={link} mapLink={mapLink}/>
+                            <Col className=" mt-4 mt-lg-0 mt-xl-0" lg={3} md={6} key={index}>
+                                <Office  id={id} country={country} address={address} img={img} link={link} mapLink={mapLink} phone={phone}/>
                 </Col>
                 )
             })}
